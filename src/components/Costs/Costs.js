@@ -32,7 +32,8 @@ function Costs(props) {
 		<>
 			<Card className='costs'>
 				<CostFilter year={selectedYear} onChangeYear={yearChangeHandler} />
-				{costsContent
+				{costsContent 
+
                 /* {filteredCosts.length === 0 && <p>Расходов нет</p>}
 				{filteredCosts.length > 0 &&
 					filteredCosts.map(cost => (
